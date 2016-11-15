@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="NameGenarator" Height="350" Width="525" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="button" Content="Generate" HorizontalAlignment="Left" Margin="217,32,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="194,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="233,78,0,0" VerticalAlignment="Top" Width="41" SelectedIndex="0" RenderTransformOrigin="0.186,0.651">
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4"/>
+            <ComboBoxItem Content="5"/>
+            <ComboBoxItem Content="6"/>
+            <ComboBoxItem Content="7"/>
+            <ComboBoxItem Content="8"/>
+            <ComboBoxItem Content="9"/>
+        </ComboBox>
+        <Label x:Name="label" Content="Num of letters" HorizontalAlignment="Left" Margin="142,74,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Exit" HorizontalAlignment="Left" Margin="217,181,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+    </Grid>
+</Window>
